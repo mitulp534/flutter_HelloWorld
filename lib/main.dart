@@ -10,6 +10,11 @@ import 'package:flutter/material.dart';
         return new MaterialApp(
           title: "My App",
           home: new HomePage(),
+          theme: new ThemeData(
+            primarySwatch: Colors.green,
+            brightness: Brightness.dark,
+            accentColor: Colors.red
+          ),
         );
       }
     }
